@@ -1,0 +1,21 @@
+{
+  "name": "NodeJsApiStarter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-promise-router": "^4.1.1",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
